@@ -1,0 +1,195 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h4, h5 p {
+    margin-bottom: 15px;
+}
+
+p {
+    font-weight: 100;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.navbar {
+    background: #1f2937;
+    height: 60px;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.header {
+    background: #1f2937;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header .container {
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+}
+
+.header img {
+    width: 473px;
+    height: 362px;
+}
+
+.header .text {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 362px;
+    justify-content: center;
+}
+
+.header .container .text p {
+    margin-bottom:1.5rem;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    width: 90px;
+    height: 25px;
+    font-weight: bold;
+}
+
+.card-info .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.card-info .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-weight: 900;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.card-info .card img{
+    border-radius: 5px;
+    border-color: black;
+    height: 250px;
+    width: 300px;
+}
+
+.section {
+    background: #e5e7eb;
+    height: 450px;
+    display: flex;
+}
+
+.section p {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    height: 250px;
+    width: 700px;
+    padding: 25px;
+    justify-content: center;
+    display: flex;
+}
+
+.section h4 {
+    display: flex;
+    justify-content: right;
+    font-size: 30px;
+    margin-top: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    background: #1f2937;
+    font-family: 'roboto';
+    height: 80px;
+    color: white;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
