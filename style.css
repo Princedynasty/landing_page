@@ -18,7 +18,7 @@ img {
 }
 
 h1, h4, h5 p {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 p {
@@ -135,7 +135,7 @@ button {
 
 .section {
     background: #e5e7eb;
-    height: 450px;
+    height: 400px;
     display: flex;
 }
 
@@ -156,6 +156,26 @@ button {
     font-size: 30px;
     margin-top: 55px;
 }
+
+.locate {
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.locate .container {
+    border-radius: 10px;
+    background: #3882f6;
+    height: 100px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    padding: 50px;
+    gap: 150px;
+}
+
 
 
 
